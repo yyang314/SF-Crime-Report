@@ -1,0 +1,30 @@
+/*verify types;*/
+drop table crimesTable;
+create table if not exists crimesTable (
+	incidentDateTime timestamp,
+	incidentDate date,
+	incidentTime time,
+	incidentYear int,
+	incidentDayofWeek int,
+	reportDatetime timestamp,
+	rowID int primary key,
+	incidentID int,
+	incidentNumber int,
+	CADNumber int,
+	reportTypeCode int,
+	reportTypeDescription varchar,
+	filedOnline varchar,
+	incidentCode int,
+	incidentCategory varchar,
+	incidentSubcategory varchar,
+	incidentDescription varchar,
+	resolution varchar,
+	intersection varchar,
+	CNN int,
+	policeDistrict varchar,
+	analysisNeighborhood varchar,
+	supervisorDistrict varchar,
+	longitude decimal,
+	latitude decimal,
+	point decimal
+	);
