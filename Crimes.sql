@@ -1,5 +1,5 @@
 /*verify types;*/
-drop table crimesTable;
+/*drop table crimesTable;*/
 create table if not exists crimesTable (
 	incidentDateTime timestamp,
 	incidentDate date,
